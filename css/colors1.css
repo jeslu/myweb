@@ -31,13 +31,13 @@ a.btn.dark_gray_bt:focus,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover,
 .icon_feature {
-	background: #039ee3;
+	background: #f7f8f8;
     background-size: 100% 100%;
     border: none;
 }
 
 .theme_bg {
-	background: #039ee3;
+	background: #ffc82f;
 }
 
 #navbar_menu > ul > li a.active,
@@ -49,7 +49,7 @@ footer p a:hover,footer p a:focus,
 footer ul.social_icons li a:hover,
 footer ul.social_icons li a:focus,
 .breadcrumb li a {
-    color: #039ee3;
+    color: #ffc82f;
 }
 
 .btn.sqaure_bt {
