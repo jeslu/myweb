@@ -573,7 +573,9 @@
           <div class="product_detail_btm">
             <div class="center">
               <h4><a href="">
-                Kit AHD 1080p DVR , 2 Cámaras domo, 2 Cámaras bullet </a></h4>
+                Kit AHD 1080p DVR , 2 Cámaras domo, 2 Cámaras bullet </a>
+                <br class="center">Con Disco 1T
+              </h4>
             </div>
             <div class="starratin">
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -685,7 +687,36 @@
 <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 <!-- map js -->
 
+<!-- Messenger Plugin de chat Code -->
+<div id="fb-root"></div>
 
+<!-- Your Plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106037284683897");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v14.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- end google map js -->
 </body>
